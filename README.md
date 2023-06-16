@@ -26,3 +26,17 @@ Item-Based Film Önerilerinin Yapılması: Belirli bir film için, diğer filmle
 Çalışma Scriptinin Hazırlanması: Yukarıdaki adımlar bir script içinde bir araya getirilir.
 
 Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir. Ayrıca, "check_film" fonksiyonu belirli bir anahtar kelimeye sahip filmleri bulmak için kullanılabilir.
+
+# user_based.py
+
+Bu kod, user-based collaborative filtering (kullanıcı-tabanlı işbirlikçi filtreleme) kullanarak bir kullanıcıya film önerileri yapmayı amaçlar. İşlemler altı adımda gerçekleştirilir:
+
+create_user_movie_df fonksiyonu, veri setinden kullanıcı-film matrisini oluşturur. Bu matris, her satırda bir kullanıcıyı ve her sütunda bir filmi temsil eder. Değerler, kullanıcının o filme verdiği puanları içerir.
+
+user_based_recommender fonksiyonu, belirli bir kullanıcıya film önerileri yapar. Fonksiyona, öneri yapılacak kullanıcı, kullanıcı-film matrisi, benzerlik eşiği (cor_th), puan eşiği (score) ve puanlama oranı (ratio) gibi parametreler geçirilir.
+
+İlk olarak, belirtilen kullanıcının izlediği filmler ve bu filmleri izleyen diğer kullanıcılar belirlenir.
+Ardından, belirli bir benzerlik eşiğini geçen kullanıcıların benzerlik skorları hesaplanır ve en benzer kullanıcılar belirlenir.
+Bu benzer kullanıcıların puanladığı filmler ve ağırlıklandırılmış puanları kullanılarak bir öneri skoru hesaplanır.
+Son olarak, belirli bir puan eşiğini aşan ve en yüksek öneri skoruna sahip filmler önerilir.
+Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.
