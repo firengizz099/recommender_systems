@@ -40,3 +40,31 @@ Ardından, belirli bir benzerlik eşiğini geçen kullanıcıların benzerlik sk
 Bu benzer kullanıcıların puanladığı filmler ve ağırlıklandırılmış puanları kullanılarak bir öneri skoru hesaplanır.
 Son olarak, belirli bir puan eşiğini aşan ve en yüksek öneri skoruna sahip filmler önerilir.
 Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.
+
+# matrix_factorization.py
+Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:
+
+Adım 1: Veri Setinin Hazırlanması
+
+"movie.csv" ve "rating.csv" dosyaları okunarak veri setleri elde edilir.
+"movie" ve "rating" veri setleri "movieId" sütunu üzerinden birleştirilerek "df" veri seti oluşturulur.
+Örnek olarak belirlenen 4 filmin verileri "sample_df" veri setine atanır.
+Kullanıcı ve film arasındaki ilişkileri içeren bir pivot tablo olan "user_movie_df" oluşturulur.
+Veri seti "reader" kullanılarak "data" nesnesine dönüştürülür.
+Adım 2: Modelleme
+
+Veri seti, eğitim ve test kümelerine ayrılır.
+"SVD" modeli tanımlanır ve eğitim kümesi üzerinde uyumlandırılır.
+Test kümesi üzerinde tahminlemeler yapılır.
+Tahminlemelerin performansı "RMSE" metriği kullanılarak değerlendirilir.
+Adım 3: Model Tuning
+
+GridSearchCV yöntemi kullanılarak en iyi hiperparametreler belirlenir.
+Parametre grid'i ve performans metrikleri tanımlanır.
+GridSearchCV modeli veri üzerinde uyumlandırılır ve en iyi skor ve parametreler elde edilir.
+Adım 4: Final Model ve Tahmin
+
+En iyi parametreler kullanılarak final SVD modeli oluşturulur.
+Tüm veri seti üzerinde model eğitimi gerçekleştirilir.
+Belirli bir kullanıcı ve film için tahminleme yapılır.
+Kodun amacı, veri setinden bir öneri sistemini oluşturmak, modeli eğitmek, performansını değerlendirmek, en iyi parametreleri bulmak ve son olarak kullanıcının belirli bir film için tahminlemesini yapmaktır.
