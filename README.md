@@ -1,10 +1,10 @@
-# recommender_systems
+# **recommender_systems**
 ![App Screenshot](https://github.com/firengizz099/recommender_systems/blob/main/1_T4-XpKM2jRioTd5f_gwX1g.png?raw=true)
 
-# arl.py
+# **arl.py**
 Bu kodun temel amacı, birliktelik analizi kullanarak perakende veri setindeki ürünler arasındaki ilişkileri bulmak ve sepet aşamasındaki kullanıcılara ürün önerilerinde bulunmaktır. İlk olarak veri seti önişleme adımlarından geçirilir, ardından birliktelik kuralları çıkarılır. Daha sonra belirli bir ürün için öneri yapmak için bir fonksiyon kullanılır.
 
-# content_based_recommender.py
+# **content_based_recommender.py**
 Bu kodun temel amacı, içerik temelli (content-based) bir tavsiye sistemi geliştirmektir. Bu sistem, filmlerin "overview" (genel bakış) metinlerini kullanarak benzer filmler önerir. İşlemler üç adımda gerçekleştirilir:
 
 TF-IDF Matrisinin Oluşturulması: Veri setindeki filmlerin "overview" metinlerinden TF-IDF matrisi oluşturulur. Bu matris, her filmin metnini temsil eden bir vektörle ifade edilir.
@@ -15,7 +15,7 @@ Benzerliklere Göre Önerilerin Yapılması: Verilen bir film için, benzerlik s
 
 Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir.
 
-# item_based.py
+# **item_based.py**
 
 Bu kodun temel amacı, item-based collaborative filtering (öğe-tabanlı işbirlikçi filtreleme) kullanarak film önerileri yapmaktır. İşlemler dört adımda gerçekleştirilir:
 
@@ -29,7 +29,7 @@ Item-Based Film Önerilerinin Yapılması: Belirli bir film için, diğer filmle
 
 Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir. Ayrıca, "check_film" fonksiyonu belirli bir anahtar kelimeye sahip filmleri bulmak için kullanılabilir.
 
-# user_based.py
+# **user_based.py**
 
 Bu kod, user-based collaborative filtering (kullanıcı-tabanlı işbirlikçi filtreleme) kullanarak bir kullanıcıya film önerileri yapmayı amaçlar. İşlemler altı adımda gerçekleştirilir:
 
@@ -43,7 +43,7 @@ Bu benzer kullanıcıların puanladığı filmler ve ağırlıklandırılmış p
 Son olarak, belirli bir puan eşiğini aşan ve en yüksek öneri skoruna sahip filmler önerilir.
 Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.
 
-# matrix_factorization.py
+# **matrix_factorization.py**
 Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:
 
 Adım 1: Veri Setinin Hazırlanması
