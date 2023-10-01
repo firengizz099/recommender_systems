@@ -23,7 +23,7 @@
 
 **User Movie Df'inin Oluşturulması: Veri çerçevesi kullanılarak kullanıcı-film matrisi oluşturulur. Her satır bir kullanıcıyı, her sütun bir filmi temsil eder ve değerler kullanıcının o filme verdiği puanları içerir.**
 
-Item-Based Film Önerilerinin Yapılması: Belirli bir film için, diğer filmlerle olan benzerlik skorları hesaplanır. Seçilen filmle benzerlik skorlarına göre en yüksek puan alan filmler önerilir.
+**Item-Based Film Önerilerinin Yapılması: Belirli bir film için, diğer filmlerle olan benzerlik skorları hesaplanır. Seçilen filmle benzerlik skorlarına göre en yüksek puan alan filmler önerilir.**
 
 Çalışma Scriptinin Hazırlanması: Yukarıdaki adımlar bir script içinde bir araya getirilir.
 
