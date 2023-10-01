@@ -44,7 +44,7 @@
 Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.
 
 # **matrix_factorization.py**
-Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:
+**Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:**
 
 Adım 1: Veri Setinin Hazırlanması
 
