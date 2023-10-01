@@ -17,7 +17,7 @@
 
 # **item_based.py**
 
-Bu kodun temel amacı, item-based collaborative filtering (öğe-tabanlı işbirlikçi filtreleme) kullanarak film önerileri yapmaktır. İşlemler dört adımda gerçekleştirilir:
+**Bu kodun temel amacı, item-based collaborative filtering (öğe-tabanlı işbirlikçi filtreleme) kullanarak film önerileri yapmaktır. İşlemler dört adımda gerçekleştirilir:**
 
 Veri Setinin Hazırlanması: Film ve derecelendirme verileri birleştirilerek bir veri çerçevesi oluşturulur.
 
