@@ -38,7 +38,7 @@ create_user_movie_df fonksiyonu, veri setinden kullanıcı-film matrisini oluşt
 user_based_recommender fonksiyonu, belirli bir kullanıcıya film önerileri yapar. Fonksiyona, öneri yapılacak kullanıcı, kullanıcı-film matrisi, benzerlik eşiği (cor_th), puan eşiği (score) ve puanlama oranı (ratio) gibi parametreler geçirilir.
 
 İlk olarak, belirtilen kullanıcının izlediği filmler ve bu filmleri izleyen diğer kullanıcılar belirlenir.
-**Ardından, belirli bir benzerlik eşiğini geçen kullanıcıların benzerlik skorları hesaplanır ve en benzer kullanıcılar belirlenir.**
+Ardından, belirli bir benzerlik eşiğini geçen kullanıcıların benzerlik skorları hesaplanır ve en benzer kullanıcılar belirlenir.
 **Bu benzer kullanıcıların puanladığı filmler ve ağırlıklandırılmış puanları kullanılarak bir öneri skoru hesaplanır.**
 **Son olarak, belirli bir puan eşiğini aşan ve en yüksek öneri skoruna sahip filmler önerilir.**
 Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.
