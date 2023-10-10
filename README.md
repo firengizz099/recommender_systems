@@ -40,8 +40,8 @@
 **İlk olarak, belirtilen kullanıcının izlediği filmler ve bu filmleri izleyen diğer kullanıcılar belirlenir.**
 **Ardından, belirli bir benzerlik eşiğini geçen kullanıcıların benzerlik skorları hesaplanır ve en benzer kullanıcılar belirlenir.**
 **Bu benzer kullanıcıların puanladığı filmler ve ağırlıklandırılmış puanları kullanılarak bir öneri skoru hesaplanır.**
-Son olarak, belirli bir puan eşiğini aşan ve en yüksek öneri skoruna sahip filmler önerilir.
-Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.
+**Son olarak, belirli bir puan eşiğini aşan ve en yüksek öneri skoruna sahip filmler önerilir.**
+**Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.**
 
 # **matrix_factorization.py**
 Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:
