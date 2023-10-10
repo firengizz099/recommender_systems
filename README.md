@@ -25,7 +25,7 @@
 
 **Item-Based Film Önerilerinin Yapılması: Belirli bir film için, diğer filmlerle olan benzerlik skorları hesaplanır. Seçilen filmle benzerlik skorlarına göre en yüksek puan alan filmler önerilir.**
 
-Çalışma Scriptinin Hazırlanması: Yukarıdaki adımlar bir script içinde bir araya getirilir.
+**Çalışma Scriptinin Hazırlanması: Yukarıdaki adımlar bir script içinde bir araya getirilir.**
 
 Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir. Ayrıca, "check_film" fonksiyonu belirli bir anahtar kelimeye sahip filmleri bulmak için kullanılabilir.
 
