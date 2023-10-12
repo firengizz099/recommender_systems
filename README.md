@@ -58,8 +58,8 @@
 **Veri seti, eğitim ve test kümelerine ayrılır.**
 **"SVD" modeli tanımlanır ve eğitim kümesi üzerinde uyumlandırılır.**
 **Test kümesi üzerinde tahminlemeler yapılır.**
-Tahminlemelerin performansı "RMSE" metriği kullanılarak değerlendirilir.
-Adım 3: Model Tuning
+**Tahminlemelerin performansı "RMSE" metriği kullanılarak değerlendirilir.
+Adım 3: Model Tuning**
 
 GridSearchCV yöntemi kullanılarak en iyi hiperparametreler belirlenir.
 Parametre grid'i ve performans metrikleri tanımlanır.
