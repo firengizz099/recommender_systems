@@ -55,7 +55,7 @@
 **Veri seti "reader" kullanılarak "data" nesnesine dönüştürülür.**
 **Adım 2: Modelleme**
 
-Veri seti, eğitim ve test kümelerine ayrılır.
+**Veri seti, eğitim ve test kümelerine ayrılır.**
 "SVD" modeli tanımlanır ve eğitim kümesi üzerinde uyumlandırılır.
 Test kümesi üzerinde tahminlemeler yapılır.
 Tahminlemelerin performansı "RMSE" metriği kullanılarak değerlendirilir.
