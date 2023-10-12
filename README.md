@@ -53,7 +53,7 @@ Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorizatio
 **Örnek olarak belirlenen 4 filmin verileri "sample_df" veri setine atanır.**
 **Kullanıcı ve film arasındaki ilişkileri içeren bir pivot tablo olan "user_movie_df" oluşturulur.**
 **Veri seti "reader" kullanılarak "data" nesnesine dönüştürülür.**
-Adım 2: Modelleme
+**Adım 2: Modelleme**
 
 Veri seti, eğitim ve test kümelerine ayrılır.
 "SVD" modeli tanımlanır ve eğitim kümesi üzerinde uyumlandırılır.
