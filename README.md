@@ -51,7 +51,7 @@ Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorizatio
 **"movie.csv" ve "rating.csv" dosyaları okunarak veri setleri elde edilir.**
 **"movie" ve "rating" veri setleri "movieId" sütunu üzerinden birleştirilerek "df" veri seti oluşturulur.**
 **Örnek olarak belirlenen 4 filmin verileri "sample_df" veri setine atanır.**
-Kullanıcı ve film arasındaki ilişkileri içeren bir pivot tablo olan "user_movie_df" oluşturulur.
+**Kullanıcı ve film arasındaki ilişkileri içeren bir pivot tablo olan "user_movie_df" oluşturulur.**
 Veri seti "reader" kullanılarak "data" nesnesine dönüştürülür.
 Adım 2: Modelleme
 
