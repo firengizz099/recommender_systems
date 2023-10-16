@@ -62,7 +62,7 @@
 Adım 3: Model Tuning**
 
 **GridSearchCV yöntemi kullanılarak en iyi hiperparametreler belirlenir.**
-Parametre grid'i ve performans metrikleri tanımlanır.
+**Parametre grid'i ve performans metrikleri tanımlanır.**
 GridSearchCV modeli veri üzerinde uyumlandırılır ve en iyi skor ve parametreler elde edilir.
 Adım 4: Final Model ve Tahmin
 
