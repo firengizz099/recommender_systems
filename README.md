@@ -63,8 +63,8 @@ Adım 3: Model Tuning**
 
 **GridSearchCV yöntemi kullanılarak en iyi hiperparametreler belirlenir.**
 **Parametre grid'i ve performans metrikleri tanımlanır.**
-GridSearchCV modeli veri üzerinde uyumlandırılır ve en iyi skor ve parametreler elde edilir.
-Adım 4: Final Model ve Tahmin
+**GridSearchCV modeli veri üzerinde uyumlandırılır ve en iyi skor ve parametreler elde edilir.**
+**Adım 4: Final Model ve Tahmin**
 
 En iyi parametreler kullanılarak final SVD modeli oluşturulur.
 Tüm veri seti üzerinde model eğitimi gerçekleştirilir.
