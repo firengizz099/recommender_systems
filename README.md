@@ -69,4 +69,4 @@ Adım 3: Model Tuning**
 **En iyi parametreler kullanılarak final SVD modeli oluşturulur.**
 Tüm veri seti üzerinde model eğitimi gerçekleştirilir.
 **Belirli bir kullanıcı ve film için tahminleme yapılır.**
-**Kodun amacı, veri setinden bir öneri sistemini oluşturmak, modeli eğitmek, performansını değerlendirmek, en iyi parametreleri bulmak ve son olarak kullanıcının belirli bir film için tahminlemesini yapmaktır.**
+Kodun amacı, veri setinden bir öneri sistemini oluşturmak, modeli eğitmek, performansını değerlendirmek, en iyi parametreleri bulmak ve son olarak kullanıcının belirli bir film için tahminlemesini yapmaktır.
