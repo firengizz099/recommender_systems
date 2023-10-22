@@ -43,9 +43,9 @@ Bu benzer kullanıcıların puanladığı filmler ve ağırlıklandırılmış p
 **Bu kod, veri seti üzerinde kullanıcı-tabanlı işbirlikçi filtreleme uygulayarak belirli bir kullanıcıya film önerileri yapmak için kullanılır.**
 
 # **matrix_factorization.py**
-**Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:**
+Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:
 
-**Adım 1: Veri Setinin Hazırlanması**
+Adım 1: Veri Setinin Hazırlanması
 
 **"movie.csv" ve "rating.csv" dosyaları okunarak veri setleri elde edilir.**
 **"movie" ve "rating" veri setleri "movieId" sütunu üzerinden birleştirilerek "df" veri seti oluşturulur.**
