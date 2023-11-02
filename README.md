@@ -45,7 +45,7 @@ User Movie Df'inin Oluşturulması: Veri çerçevesi kullanılarak kullanıcı-f
 # **matrix_factorization.py**
 **Bu kod, model tabanlı işbirlikçi filtreleme yöntemi olan Matrix Factorization (Matris Ayrıştırma) yöntemini kullanarak bir öneri sistemini oluşturmayı amaçlamaktadır. İşlemler aşağıdaki adımlar üzerinden gerçekleştirilmektedir:**
 
-Adım 1: Veri Setinin Hazırlanması
+**Adım 1: Veri Setinin Hazırlanması**
 
 "movie.csv" ve "rating.csv" dosyaları okunarak veri setleri elde edilir.
 "movie" ve "rating" veri setleri "movieId" sütunu üzerinden birleştirilerek "df" veri seti oluşturulur.
