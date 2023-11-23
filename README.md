@@ -9,7 +9,7 @@ Bu kodun temel amacı, içerik temelli (content-based) bir tavsiye sistemi geli�
 
 TF-IDF Matrisinin Oluşturulması: Veri setindeki filmlerin "overview" metinlerinden TF-IDF matrisi oluşturulur. Bu matris, her filmin metnini temsil eden bir vektörle ifade edilir.
 
-**Cosine Similarity Matrisinin Oluşturulması: TF-IDF matrisi kullanılarak cosine similarity matrisi oluşturulur. Bu matris, her filmin diğer filmlerle olan benzerlik skorlarını içerir.**
+Cosine Similarity Matrisinin Oluşturulması: TF-IDF matrisi kullanılarak cosine similarity matrisi oluşturulur. Bu matris, her filmin diğer filmlerle olan benzerlik skorlarını içerir.
 
 **Benzerliklere Göre Önerilerin Yapılması: Verilen bir film için, benzerlik skorlarına göre en yakın filmler belirlenir ve öneriler yapılır.**
 
