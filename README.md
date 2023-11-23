@@ -1,8 +1,8 @@
 # **recommender_systems**
 ![App Screenshot](https://github.com/firengizz099/recommender_systems/blob/main/1_T4-XpKM2jRioTd5f_gwX1g.png?raw=true)
 
-# **arl.py**
-**Bu kodun temel amacı, birliktelik analizi kullanarak perakende veri setindeki ürünler arasındaki ilişkileri bulmak ve sepet aşamasındaki kullanıcılara ürün önerilerinde bulunmaktır. İlk olarak veri seti önişleme adımlarından geçirilir, ardından birliktelik kuralları çıkarılır. Daha sonra belirli bir ürün için öneri yapmak için bir fonksiyon kullanılır.**
+# arl.py
+Bu kodun temel amacı, birliktelik analizi kullanarak perakende veri setindeki ürünler arasındaki ilişkileri bulmak ve sepet aşamasındaki kullanıcılara ürün önerilerinde bulunmaktır. İlk olarak veri seti önişleme adımlarından geçirilir, ardından birliktelik kuralları çıkarılır. Daha sonra belirli bir ürün için öneri yapmak için bir fonksiyon kullanılır.
 
 # **content_based_recommender.py**
 **Bu kodun temel amacı, içerik temelli (content-based) bir tavsiye sistemi geliştirmektir. Bu sistem, filmlerin "overview" (genel bakış) metinlerini kullanarak benzer filmler önerir. İşlemler üç adımda gerçekleştirilir:**
