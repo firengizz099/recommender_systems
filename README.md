@@ -32,7 +32,7 @@ User Movie Df'inin Oluşturulması: Veri çerçevesi kullanılarak kullanıcı-f
 
 **Bu kod, user-based collaborative filtering (kullanıcı-tabanlı işbirlikçi filtreleme) kullanarak bir kullanıcıya film önerileri yapmayı amaçlar. İşlemler altı adımda gerçekleştirilir:**
 
-create_user_movie_df fonksiyonu, veri setinden kullanıcı-film matrisini oluşturur. Bu matris, her satırda bir kullanıcıyı ve her sütunda bir filmi temsil eder. Değerler, kullanıcının o filme verdiği puanları içerir.
+**create_user_movie_df fonksiyonu, veri setinden kullanıcı-film matrisini oluşturur. Bu matris, her satırda bir kullanıcıyı ve her sütunda bir filmi temsil eder. Değerler, kullanıcının o filme verdiği puanları içerir.**
 
 user_based_recommender fonksiyonu, belirli bir kullanıcıya film önerileri yapar. Fonksiyona, öneri yapılacak kullanıcı, kullanıcı-film matrisi, benzerlik eşiği (cor_th), puan eşiği (score) ve puanlama oranı (ratio) gibi parametreler geçirilir.
 
