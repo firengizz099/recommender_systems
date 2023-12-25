@@ -57,7 +57,7 @@ Veri seti "reader" kullanılarak "data" nesnesine dönüştürülür.
 **Veri seti, eğitim ve test kümelerine ayrılır.**
 **"SVD" modeli tanımlanır ve eğitim kümesi üzerinde uyumlandırılır.**
 **Test kümesi üzerinde tahminlemeler yapılır.**
-**Tahminlemelerin performansı "RMSE" metriği kullanılarak değerlendirilir.
+**Tahminlemelerin performansı "RMSE" metriği kullanılarak değerlendirilir.**
 **Adım 3: Model Tuning**
 
 **GridSearchCV yöntemi kullanılarak en iyi hiperparametreler belirlenir.**
