@@ -11,7 +11,7 @@ TF-IDF Matrisinin Oluşturulması: Veri setindeki filmlerin "overview" metinleri
 
 Cosine Similarity Matrisinin Oluşturulması: TF-IDF matrisi kullanılarak cosine similarity matrisi oluşturulur. Bu matris, her filmin diğer filmlerle olan benzerlik skorlarını içerir.
 
-**Benzerliklere Göre Önerilerin Yapılması: Verilen bir film için, benzerlik skorlarına göre en yakın filmler belirlenir ve öneriler yapılır.**
+Benzerliklere Göre Önerilerin Yapılması: Verilen bir film için, benzerlik skorlarına göre en yakın filmler belirlenir ve öneriler yapılır.
 
 **Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir.**
 
