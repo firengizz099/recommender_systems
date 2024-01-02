@@ -26,7 +26,7 @@
 
 **Çalışma Scriptinin Hazırlanması: Yukarıdaki adımlar bir script içinde bir araya getirilir.**
 
-Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir. Ayrıca, "check_film" fonksiyonu belirli bir anahtar kelimeye sahip filmleri bulmak için kullanılabilir.
+**Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir. Ayrıca, "check_film" fonksiyonu belirli bir anahtar kelimeye sahip filmleri bulmak için kullanılabilir.**
 
 # **user_based.py**
 
