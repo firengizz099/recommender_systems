@@ -13,7 +13,7 @@
 
 **Benzerliklere Göre Önerilerin Yapılması: Verilen bir film için, benzerlik skorlarına göre en yakın filmler belirlenir ve öneriler yapılır.**
 
-Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir.
+**Fonksiyonlar aracılığıyla belirli bir film için öneri yapılabilir veya daha genel olarak tüm işlemler tek bir işlevde gerçekleştirilebilir.**
 
 # **item_based.py**
 
